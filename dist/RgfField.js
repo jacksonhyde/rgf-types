@@ -6,6 +6,7 @@ class State {
         this.value = {};
         this.formatted = '';
         this.errors = [];
+        this.group = '';
     }
 }
 exports.State = State;
