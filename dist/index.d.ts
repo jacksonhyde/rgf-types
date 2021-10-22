@@ -1,5 +1,5 @@
-export * as RgfFlow from './RgfFlow';
-export * as RgfStep from './RgfStep';
-export * as RgfField from './RgfField';
-export * as RgfPage from './RgfPage';
-export * as RgfService from './RgfService';
+export * as Flow from './RgfFlow';
+export * as Step from './RgfStep';
+export * as Field from './RgfField';
+export * as Page from './RgfPage';
+export * as Service from './RgfService';

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.RgfService = exports.RgfPage = exports.RgfField = exports.RgfStep = exports.RgfFlow = void 0;
-exports.RgfFlow = require("./RgfFlow");
-exports.RgfStep = require("./RgfStep");
-exports.RgfField = require("./RgfField");
-exports.RgfPage = require("./RgfPage");
-exports.RgfService = require("./RgfService");
+exports.Service = exports.Page = exports.Field = exports.Step = exports.Flow = void 0;
+exports.Flow = require("./RgfFlow");
+exports.Step = require("./RgfStep");
+exports.Field = require("./RgfField");
+exports.Page = require("./RgfPage");
+exports.Service = require("./RgfService");
