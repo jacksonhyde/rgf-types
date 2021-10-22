@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "module": "dist/index.js",
+  "module": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "author": "",
   "license": "ISC",
