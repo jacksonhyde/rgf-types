@@ -8,7 +8,7 @@ export declare namespace RgfField {
     interface Error {
         message: string;
     }
-    interface State {
+    class State {
         value: {
             [key: string]: string;
         };
