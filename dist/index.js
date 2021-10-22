@@ -1,10 +1,9 @@
-import * as Flow_1 from './RgfFlow';
-export { Flow_1 as Flow };
-import * as Step_1 from './RgfStep';
-export { Step_1 as Step };
-import * as Field_1 from './RgfField';
-export { Field_1 as Field };
-import * as Page_1 from './RgfPage';
-export { Page_1 as Page };
-import * as Service_1 from './RgfService';
-export { Service_1 as Service };
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Service = exports.Page = exports.Field = exports.Step = exports.Flow = void 0;
+exports.Flow = require("./RgfFlow");
+exports.Step = require("./RgfStep");
+exports.Field = require("./RgfField");
+exports.Page = require("./RgfPage");
+exports.Service = require("./RgfService");
+//# sourceMappingURL=index.js.map
