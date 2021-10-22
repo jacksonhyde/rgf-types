@@ -11,6 +11,9 @@
 Config Types are used to type the imported service definition.
 State Types are used to type persisted data submitted via the client.
 
+* RgfService
+  - RgfService.Config
+ 
 * RgfField
   - RgfField.Config
   - RgfField.State
@@ -21,8 +24,8 @@ State Types are used to type persisted data submitted via the client.
   - RgfStep.State
 
 * RgfFlow
-  - RgfStep.Config
-  - RgfStep.State
+  - RgfFlow.Config
+  - RgfFlow.State
 
 * RgfPage
-  - RgfStep.Config
+  - RgfPage.Config
