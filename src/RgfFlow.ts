@@ -1,15 +1,18 @@
-import * as RgfStep from "./RgfStep";
+import {Step} from "./RgfStep";
 
-export interface Config {
-  path: string;
-  start: string;
-  steps: RgfStep.Config[];
-}
+export namespace Flow {
 
-export interface State {
-  current: string;
-  history: string[];
-  steps: {
-    [key: string]: RgfStep.State
+  export interface Config {
+    path: string;
+    start: string;
+    steps: Step.Config[];
+  }
+
+  export interface State {
+    current: string;
+    history: string[];
+    steps: {
+      [key: string]: Step.State
+    }
   }
 }

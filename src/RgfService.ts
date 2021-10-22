@@ -1,8 +1,8 @@
-import * as RgfFlow from './RgfFlow';
-import * as RgfField from './RgfField';
-import * as RgfPage from './RgfPage';
+import {Flow} from './RgfFlow';
+import {Field} from './RgfField';
+import {Page} from './RgfPage';
 
-export namespace RgfService {
+export namespace Service {
 
   export interface Config {
     name: string;
@@ -13,12 +13,12 @@ export namespace RgfService {
       metaLinks: string[];
     },
     fieldGroups: string[];
-    flows: RgfFlow.Config[];
+    flows: Flow.Config[];
     fields: {
-      [key: string]: RgfField.Config;
+      [key: string]: Field.Config;
     },
     pages: {
-      [key: string]: RgfPage.Config;
+      [key: string]: Page.Config;
     }
   }
 }
