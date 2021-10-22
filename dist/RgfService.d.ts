@@ -1,6 +1,6 @@
-import { Flow } from './RgfFlow';
-import { Field } from './RgfField';
-import { Page } from './RgfPage';
+import * as Flow from './RgfFlow';
+import * as Field from './RgfField';
+import * as Page from './RgfPage';
 export declare namespace Service {
     interface Config {
         name: string;
