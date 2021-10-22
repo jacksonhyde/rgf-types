@@ -1,22 +1,18 @@
-export namespace RgfField {
+export interface Config {
+  type: string;
+  group: string;
+  format?: string;
+  options?: string[];
+}
 
-  export interface Config {
-    type: string;
-    group: string;
-    format?: string;
-    options?: string[];
-  }
+export interface Error {
+  message: string;
+}
 
-  export interface Error {
-    message: string;
-  }
-
-  export class State {
-    value: {
-      [key: string]: string;
-    } = {};
-    formatted?: string = '';
-    errors: Error[] = [];
-  }
-  
+export class State {
+  value: {
+    [key: string]: string;
+  } = {};
+  formatted?: string = '';
+  errors: Error[] = [];
 }

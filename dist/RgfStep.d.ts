@@ -1,4 +1,4 @@
-import { RgfField } from ".";
+import * as RgfField from "./RgfField";
 export declare namespace RgfStep {
     interface Config {
         fields: string[];
