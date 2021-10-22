@@ -8,5 +8,8 @@ export declare namespace RgfFlow {
     interface State {
         current: string;
         history: string[];
+        steps: {
+            [key: string]: RgfStep.State;
+        };
     }
 }
