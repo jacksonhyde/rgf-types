@@ -11,10 +11,10 @@ export namespace RgfField {
     message: string;
   }
 
-  export interface State {
+  export class State {
     value: {
       [key: string]: string;
-    },
+    };
     formatted?: string;
     errors: Error[];
   }
