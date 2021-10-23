@@ -4,8 +4,8 @@ export declare class Config {
     next: [
         {
             path: string;
-            fields: {};
-            values: {};
+            fields?: {};
+            values?: string[];
         }
     ];
 }

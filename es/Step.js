@@ -7,8 +7,6 @@ class Config {
         this.next = [
             {
                 path: '',
-                fields: {},
-                values: {},
             },
         ];
     }

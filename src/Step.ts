@@ -5,14 +5,12 @@ export class Config {
   next: [
     {
       path: string;
-      fields: {};
-      values: {};
+      fields?: {};
+      values?: string[];
     }
   ] = [
     {
       path: '',
-      fields: {},
-      values: {},
     },
   ];
 }
