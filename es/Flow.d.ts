@@ -10,6 +10,6 @@ export declare class State {
     current: string;
     history: string[];
     steps: {
-        [key: string]: string;
+        [key: string]: Step.State;
     };
 }

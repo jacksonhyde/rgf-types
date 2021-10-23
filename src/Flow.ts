@@ -12,6 +12,6 @@ export class State {
   current = '';
   history: string[] = [];
   steps: {
-    [key: string]: string;
+    [key: string]: Step.State;
   } = {};
 }
