@@ -1,1 +1,1 @@
-{"version":3,"file":"RgfField.js","sourceRoot":"","sources":["../src/RgfField.ts"],"names":[],"mappings":";;;AAaA,MAAa,KAAK;IAChB,KAAK,GAED,EAAE,CAAC;IACP,SAAS,GAAY,EAAE,CAAC;IACxB,MAAM,GAAY,EAAE,CAAC;IACrB,KAAK,GAAW,EAAE,CAAC;CACpB;AAPD,sBAOC"}
+{"version":3,"file":"RgfField.js","sourceRoot":"","sources":["../src/RgfField.ts"],"names":[],"mappings":"AAaA,MAAM,OAAO,KAAK;IAChB,KAAK,GAED,EAAE,CAAC;IACP,SAAS,GAAY,EAAE,CAAC;IACxB,MAAM,GAAY,EAAE,CAAC;IACrB,KAAK,GAAW,EAAE,CAAC;CACpB"}

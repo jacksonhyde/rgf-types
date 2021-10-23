@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
+    "module": "esnext",
     "target": "esnext",
     "sourceMap": true,
     "allowJs": false,
