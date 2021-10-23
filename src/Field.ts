@@ -16,4 +16,5 @@ export class State {
   formatted?: string = '';
   errors: Error[] = [];
   group = '';
+  step = '';
 }

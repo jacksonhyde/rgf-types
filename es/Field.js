@@ -20,6 +20,7 @@ class State {
         this.formatted = '';
         this.errors = [];
         this.group = '';
+        this.step = '';
     }
 }
 exports.State = State;

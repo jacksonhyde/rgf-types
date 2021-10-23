@@ -14,4 +14,5 @@ export declare class State {
     formatted?: string;
     errors: Error[];
     group: string;
+    step: string;
 }
