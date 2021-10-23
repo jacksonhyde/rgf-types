@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "target": "es6",
+    "target": "esnext",
     "sourceMap": true,
     "allowJs": false,
     "moduleResolution": "node",
@@ -16,7 +16,7 @@
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
     "lib": [
-      "es6",
+      "esnext",
     ],
     "declaration": true
   },
