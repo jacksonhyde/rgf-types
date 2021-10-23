@@ -5,7 +5,7 @@ class Config {
     constructor() {
         this.path = '';
         this.start = '';
-        this.steps = [];
+        this.steps = {};
     }
 }
 exports.Config = Config;

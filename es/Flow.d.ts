@@ -2,7 +2,9 @@ import * as Step from './Step';
 export declare class Config {
     path: string;
     start: string;
-    steps: Step.Config[];
+    steps: {
+        [key: string]: Step.Config;
+    };
 }
 export declare class State {
     current: string;

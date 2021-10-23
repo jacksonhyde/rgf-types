@@ -1,4 +1,5 @@
 export class Config {
+  path = '';
   buttons: [
     {
       style: string;
