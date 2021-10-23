@@ -20,9 +20,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Service = exports.Page = exports.Field = exports.Step = exports.Flow = void 0;
-exports.Flow = __importStar(require("./RgfFlow"));
-exports.Step = __importStar(require("./RgfStep"));
-exports.Field = __importStar(require("./RgfField"));
-exports.Page = __importStar(require("./RgfPage"));
-exports.Service = __importStar(require("./RgfService"));
+exports.Flow = __importStar(require("./Flow"));
+exports.Step = __importStar(require("./Step"));
+exports.Field = __importStar(require("./Field"));
+exports.Page = __importStar(require("./Page"));
+exports.Service = __importStar(require("./Service"));
 //# sourceMappingURL=index.js.map
