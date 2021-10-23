@@ -4,7 +4,7 @@ exports.State = exports.Config = void 0;
 class Config {
     constructor() {
         this.path = '';
-        this.start = '';
+        this.entry = '';
         this.steps = {};
     }
 }

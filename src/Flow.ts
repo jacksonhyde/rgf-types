@@ -2,7 +2,7 @@ import * as Step from './Step';
 
 export class Config {
   path = '';
-  start = '';
+  entry = '';
   steps: {
     [key: string]: Step.Config;
   } = {};
