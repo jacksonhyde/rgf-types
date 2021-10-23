@@ -15,4 +15,7 @@ export declare class State {
         count: number;
         all?: Field.Error[];
     };
+    fields: {
+        [key: string]: Field.State;
+    };
 }

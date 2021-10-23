@@ -18,6 +18,7 @@ class State {
     constructor() {
         this.submitted = false;
         this.errors = { count: 0 };
+        this.fields = {};
     }
 }
 exports.State = State;
