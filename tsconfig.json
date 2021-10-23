@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
+    "module": "CommonJS",
+    "target": "es6",
     "sourceMap": true,
     "allowJs": false,
     "moduleResolution": "node",
@@ -16,12 +16,12 @@
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
     "lib": [
-      "esnext",
+      "es6",
     ],
     "declaration": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
   ],
   "exclude": [
     "node_modules/**/*",
