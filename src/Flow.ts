@@ -3,7 +3,9 @@ import * as Step from './Step';
 export class Config {
   path = '';
   start = '';
-  steps: Step.Config[] = [];
+  steps: {
+    [key: string]: Step.Config;
+  } = {};
 }
 
 export class State {
