@@ -1,15 +1,15 @@
 import * as Field from './RgfField';
-export interface Config {
+export declare class Config {
     fields: string[];
     next: [
         {
             path: string;
-            field: string;
-            values: string[];
+            fields: {};
+            values: {};
         }
     ];
 }
-export interface State {
+export declare class State {
     submitted: boolean;
     errors: {
         count: number;

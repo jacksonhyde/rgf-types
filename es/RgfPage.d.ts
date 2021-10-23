@@ -1,4 +1,4 @@
-export interface Config {
+export declare class Config {
     buttons: [
         {
             style: string;

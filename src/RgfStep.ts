@@ -1,20 +1,26 @@
 import * as Field from './RgfField';
 
-export interface Config {
-  fields: string[];
+export class Config {
+  fields: string[] = [];
   next: [
     {
       path: string;
-      field: string;
-      values: string[];
+      fields: {};
+      values: {};
     }
+  ] = [
+    {
+      path: '',
+      fields: {},
+      values: {},
+    },
   ];
 }
 
-export interface State {
-  submitted: boolean;
+export class State {
+  submitted = false;
   errors: {
     count: number;
     all?: Field.Error[];
-  };
+  } = {count: 0};
 }

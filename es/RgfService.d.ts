@@ -1,7 +1,7 @@
 import * as Flow from './RgfFlow';
 import * as Field from './RgfField';
 import * as Page from './RgfPage';
-export interface Config {
+export declare class Config {
     name: string;
     header: {
         navLinks: string[];
