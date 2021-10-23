@@ -1,14 +1,12 @@
-
-
-export interface Config {
-  type: string;
-  group: string;
+export class Config {
+  type = '';
+  group = '';
   format?: string;
   options?: string[];
 }
 
-export interface Error {
-  message: string;
+export class Error {
+  message = '';
 }
 
 export class State {
@@ -17,5 +15,5 @@ export class State {
   } = {};
   formatted?: string = '';
   errors: Error[] = [];
-  group: string = '';
+  group = '';
 }

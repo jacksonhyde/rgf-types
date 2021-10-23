@@ -1,4 +1,3 @@
-
 export interface Config {
   buttons: [
     {
@@ -6,5 +5,5 @@ export interface Config {
       href: string;
       start?: boolean;
     }
-  ]
+  ];
 }

@@ -1,10 +1,10 @@
-export interface Config {
+export declare class Config {
     type: string;
     group: string;
     format?: string;
     options?: string[];
 }
-export interface Error {
+export declare class Error {
     message: string;
 }
 export declare class State {

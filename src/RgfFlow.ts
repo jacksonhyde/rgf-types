@@ -10,6 +10,6 @@ export interface State {
   current: string;
   history: string[];
   steps: {
-    [key: string]: Step.State
-  }
+    [key: string]: Step.State;
+  };
 }
