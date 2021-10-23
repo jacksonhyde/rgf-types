@@ -2,11 +2,11 @@
   "name": "rgf-types",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/index.d.ts",
   "scripts": {
     "build": "rm -rf /dist && tsc"
   },
-  "module": "dist/index.js",
+  "module": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "author": "",
   "license": "ISC",
