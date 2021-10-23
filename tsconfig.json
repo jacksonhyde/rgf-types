@@ -1,32 +1,23 @@
 {
+  "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
+    "target": "ES6",
     "module": "CommonJS",
-    "target": "es6",
-    "sourceMap": true,
-    "allowJs": false,
-    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "incremental": true,
+    "baseUrl": "./",
     "rootDir": "./src",
-    "outDir": "./dist",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "strict": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true,
-    "allowSyntheticDefaultImports": true,
-    "lib": [
-      "es6",
-    ],
-    "declaration": true
+    "paths": {
+      "@root/*": ["./src/*"],
+    }
   },
   "include": [
-    "src/**/*",
-  ],
-  "exclude": [
-    "node_modules/**/*",
-    "src/**/*.test.tsx",
-    "src/**/*.story.tsx",
-    "test/**/*"
+    "src/",
   ]
 }
