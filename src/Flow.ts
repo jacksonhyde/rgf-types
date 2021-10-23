@@ -9,6 +9,13 @@ export class Config {
 }
 
 export class State {
+  status: {
+    submitted: boolean;
+    id: string;
+  } = {
+    submitted: false,
+    id: '',
+  };
   current = '';
   history: string[] = [];
   steps: {

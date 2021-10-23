@@ -7,6 +7,10 @@ export declare class Config {
     };
 }
 export declare class State {
+    status: {
+        submitted: boolean;
+        id: string;
+    };
     current: string;
     history: string[];
     steps: {

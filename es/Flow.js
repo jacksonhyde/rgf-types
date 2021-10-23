@@ -11,6 +11,10 @@ class Config {
 exports.Config = Config;
 class State {
     constructor() {
+        this.status = {
+            submitted: false,
+            id: '',
+        };
         this.current = '';
         this.history = [];
         this.steps = {};
