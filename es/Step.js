@@ -15,7 +15,7 @@ exports.Config = Config;
 class State {
     constructor() {
         this.submitted = false;
-        this.errors = { count: 0 };
+        this.errors = [];
         this.fields = [];
     }
 }

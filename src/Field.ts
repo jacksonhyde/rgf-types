@@ -7,9 +7,11 @@ export class Config {
 }
 
 export class Error {
+  field = '';
   key = '';
 
-  constructor(key: string) {
+  constructor(field: string, key: string) {
+    this.field = field;
     this.key = key;
   }
 }

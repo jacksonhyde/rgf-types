@@ -9,9 +9,6 @@ export declare class Config {
 }
 export declare class State {
     submitted: boolean;
-    errors: {
-        count: number;
-        all?: Field.Error[];
-    };
+    errors: Field.Error[];
     fields: string[];
 }

@@ -6,8 +6,9 @@ export declare class Config {
     enum?: string[];
 }
 export declare class Error {
+    field: string;
     key: string;
-    constructor(key: string);
+    constructor(field: string, key: string);
 }
 export declare class State {
     data: {

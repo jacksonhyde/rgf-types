@@ -10,8 +10,10 @@ class Config {
 }
 exports.Config = Config;
 class Error {
-    constructor(key) {
+    constructor(field, key) {
+        this.field = '';
         this.key = '';
+        this.field = field;
         this.key = key;
     }
 }

@@ -15,9 +15,6 @@ export class Config {
 
 export class State {
   submitted = false;
-  errors: {
-    count: number;
-    all?: Field.Error[];
-  } = {count: 0};
+  errors: Field.Error[] = [];
   fields: string[] = [];
 }
