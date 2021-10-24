@@ -3,7 +3,7 @@ export declare class Config {
     field: string;
     group?: string | undefined;
     format?: string;
-    options?: string[];
+    enum?: string[];
 }
 export declare class Error {
     key: string;

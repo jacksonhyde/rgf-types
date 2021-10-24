@@ -3,7 +3,7 @@ export class Config {
   field = '';
   group? = '';
   format?: string;
-  options?: string[];
+  enum?: string[];
 }
 
 export class Error {
