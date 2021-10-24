@@ -2,13 +2,11 @@ import * as Field from './Field';
 
 export class Config {
   fields: string[] = [];
-  next: [
-    {
-      path: string;
-      field?: string;
-      values?: string[];
-    }
-  ] = [
+  next: Array<{
+    path: string;
+    field?: string;
+    values?: string[];
+  }> = [
     {
       path: '',
     },
