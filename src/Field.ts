@@ -14,9 +14,10 @@ export class Error {
 }
 
 export class State {
-  value: {
+  data: {
     [key: string]: string;
   } = {};
+  value = '';
   formatted?: string = '';
   errors: Error[] = [];
   group = '';

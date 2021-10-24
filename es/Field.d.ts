@@ -9,9 +9,10 @@ export declare class Error {
     constructor(key: string);
 }
 export declare class State {
-    value: {
+    data: {
         [key: string]: string;
     };
+    value: string;
     formatted?: string;
     errors: Error[];
     group: string;

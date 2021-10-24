@@ -17,7 +17,8 @@ class Error {
 exports.Error = Error;
 class State {
     constructor() {
-        this.value = {};
+        this.data = {};
+        this.value = '';
         this.formatted = '';
         this.errors = [];
         this.group = '';
