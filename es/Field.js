@@ -4,6 +4,7 @@ exports.State = exports.Error = exports.Config = void 0;
 class Config {
     constructor() {
         this.type = '';
+        this.field = '';
         this.group = '';
     }
 }

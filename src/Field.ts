@@ -1,6 +1,7 @@
 export class Config {
   type = '';
-  group = '';
+  field = '';
+  group? = '';
   format?: string;
   options?: string[];
 }

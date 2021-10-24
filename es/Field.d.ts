@@ -1,6 +1,7 @@
 export declare class Config {
     type: string;
-    group: string;
+    field: string;
+    group?: string | undefined;
     format?: string;
     options?: string[];
 }
