@@ -5,7 +5,7 @@ export class Config {
   next: [
     {
       path: string;
-      fields?: {};
+      field?: string;
       values?: string[];
     }
   ] = [
