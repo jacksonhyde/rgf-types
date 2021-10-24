@@ -5,7 +5,8 @@ export declare class Config {
     options?: string[];
 }
 export declare class Error {
-    message: string;
+    key: string;
+    constructor(key: string);
 }
 export declare class State {
     value: {

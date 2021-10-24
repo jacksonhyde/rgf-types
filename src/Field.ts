@@ -6,7 +6,11 @@ export class Config {
 }
 
 export class Error {
-  message = '';
+  key = '';
+
+  constructor(key: string) {
+    this.key = key;
+  }
 }
 
 export class State {

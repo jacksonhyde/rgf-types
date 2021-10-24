@@ -9,8 +9,9 @@ class Config {
 }
 exports.Config = Config;
 class Error {
-    constructor() {
-        this.message = '';
+    constructor(key) {
+        this.key = '';
+        this.key = key;
     }
 }
 exports.Error = Error;
