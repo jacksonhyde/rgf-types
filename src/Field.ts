@@ -1,5 +1,10 @@
 export class Config {
-  [key: string]: string;
+  type = '';
+  field = '';
+  group? = '';
+  format?: string;
+  enum?: string[];
+  [key: string]: any;
 }
 
 export class Error {

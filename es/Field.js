@@ -2,6 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.State = exports.Error = exports.Config = void 0;
 class Config {
+    constructor() {
+        this.type = '';
+        this.field = '';
+        this.group = '';
+    }
 }
 exports.Config = Config;
 class Error {
