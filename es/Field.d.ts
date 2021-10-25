@@ -1,9 +1,5 @@
 export declare class Config {
-    type: string;
-    field: string;
-    group?: string | undefined;
-    format?: string;
-    enum?: string[];
+    [key: string]: string;
 }
 export declare class Error {
     field: string;
